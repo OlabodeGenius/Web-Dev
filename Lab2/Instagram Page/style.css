@@ -1,0 +1,210 @@
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #888888 #f0f0f0;
+}
+.sideByside {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+
+.left-container {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  position: relative;
+  top: 10%;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-bottom: 20%;
+}
+
+.phone {
+  width: 70%;
+}
+.right {
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+  top: 15%;
+  margin-right: 5%;
+}
+
+.right-container {
+  width: 60%; /* Adjust to your preference */
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid rgb(152, 151, 151);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 45%;
+  position: absolute;
+  right: 10%;
+}
+
+#logo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  margin-top: 8%; /* Adjust height as needed */
+}
+
+input {
+  width: 75%;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 8%;
+  padding: 8px;
+  border-radius: 6px, rgb(77, 94, 248);
+}
+input:hover {
+  color: gray;
+}
+button {
+  width: 60%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.login {
+  background-color: rgb(77, 181, 249);
+  width: 80%;
+  height: 30px;
+  margin: 10px;
+  padding: 8px;
+  margin-left: 10%;
+  border: 0;
+  color: white;
+  font-style: bold;
+  font-size: 15px;
+  position: center;
+}
+.or {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: rgb(145, 144, 144);
+  margin: 0 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.OR-text {
+  margin: 0 10px;
+  font-weight: light; /* Optional: Adjust font weight as needed */
+}
+.textFacebook {
+  margin-left: 25%;
+  color: rgb(82, 82, 245);
+  font-size: 15px;
+  font-style: bold;
+  white-space: nowrap;
+}
+.facebook-icon {
+  width: 15px;
+  margin-right: 5px; /* Adjust the margin between the icon and text as needed */
+}
+#forgot {
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.signUp-Container {
+  width: 60%;
+  position: absolute;
+  border: 1px solid gray;
+  top: 70%;
+  right: 10%;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 45%;
+  align-items: center;
+  margin-top: 2%;
+}
+.sign-up {
+  margin-left: 15%;
+}
+.textFacebook {
+  width: 20%;
+}
+
+.bottom {
+  width: 90%;
+  position: absolute;
+  top: 75%;
+  margin-top: 8%;
+  margin-left: 1%;
+}
+.bottom p1 {
+  position: relative;
+  right: 15%;
+}
+
+.app-contianer {
+  width: 90%;
+  align-items: center;
+  margin-right: 5%;
+  position: relative;
+}
+#app-icon {
+  position: relative;
+  right: 10%;
+  margin-top: 12px;
+  width: 130px;
+}
+#google-icon {
+  position: relative;
+  width: 130px;
+  margin-top: 12px;
+  right: 10%;
+}
+
+.information {
+  display: flex;
+  position: centre;
+  top: 90%;
+  margin-top: 9%;
+  align-items: center;
+  margin-left: 10%;
+  padding-bottom: 10%;
+}
+
+p1 {
+  position: relative;
+  right: 10%;
+  margin-left: 1%;
+  margin-right: 5%;
+}
+p1 {
+  flex-direction: row;
+  justify-content: center;
+  font-size: small;
+  margin-left: 10%;
+  padding-left: 10%;
+  word-spacing: 5px;
+  text-align: center;
+  padding-bottom: 4%;
+}
