@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List | Emmanuel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <div class="input-group">
+        <input type="text" id="new-item" placeholder="Add a new item..." />
+        <button id="add-item">Add</button>
+      </div>
+      <ul id="todo-list"></ul>
+      <div class="filters">
+        <label for="show-all">Show All</label>
+        <input type="radio" id="show-all" name="filter" checked />
+        <label for="show-active">Show Active</label>
+        <input type="radio" id="show-active" name="filter" />
+        <label for="show-completed">Show Completed</label>
+        <input type="radio" id="show-completed" name="filter" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
