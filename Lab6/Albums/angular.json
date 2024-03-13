@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "finalStore": {
+    "Albums": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/final-store",
+            "outputPath": "dist/albums",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "finalStore:build:production"
+              "browserTarget": "Albums:build:production"
             },
             "development": {
-              "browserTarget": "finalStore:build:development"
+              "browserTarget": "Albums:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "finalStore:build"
+            "browserTarget": "Albums:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "8c667615-92cd-4044-86fa-d5546481c625"
+    "analytics": "dbbf2740-f022-4de3-ac16-1d87d3aebcb6"
   }
 }
